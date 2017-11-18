@@ -1,5 +1,5 @@
 import React from 'react';
-import CardNumberInput from '../CardNumberInput';
+import CardNumberInput from '../CardNumberInput/CardNumberInput';
 import {mount} from 'enzyme';
 
 describe('Компонент CardNumberInput', () => {

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import CardNumberInput from "./CardNumberInput";
+import CardNumberInput from "../CardNumberInput/CardNumberInput";
 
 class CardNumberHolder extends Component {
     state = {

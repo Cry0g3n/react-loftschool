@@ -1,5 +1,5 @@
 import React from 'react';
-import Switcher from '../Switcher';
+import Switcher from '../Switcher/Switcher';
 import {shallow} from 'enzyme';
 
 describe('Компонент Switcher', () => {
