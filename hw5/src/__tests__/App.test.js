@@ -1,8 +1,8 @@
 import React from 'react';
-import App from '../App';
-import Auth from '../Auth';
-import Home from '../Home';
-import Private from '../Private';
+import App from '../App/App';
+import Auth from '../Auth/Auth';
+import Home from '../Home/Home';
+import Private from '../Private/Private';
 import {mount, shallow} from 'enzyme';
 import {MemoryRouter, Link, Route} from 'react-router-dom';
 

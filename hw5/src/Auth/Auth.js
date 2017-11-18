@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {authorizeUser} from './AuthorizeApi';
+import {authorizeUser} from '../AuthorizeApi';
 import {Redirect} from "react-router-dom";
 
 class Auth extends Component {

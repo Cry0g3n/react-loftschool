@@ -1,5 +1,5 @@
 import React from 'react';
-import Auth from '../Auth';
+import Auth from '../Auth/Auth';
 import {shallow} from 'enzyme';
 import * as Api from '../AuthorizeApi';
 import {MemoryRouter, Redirect} from 'react-router-dom';
