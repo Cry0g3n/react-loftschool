@@ -1,9 +1,21 @@
-import {Component} from 'react';
+import React, {Component} from 'react';
+import CardNumberInput from "./CardNumberInput";
 
 class CardNumberHolder extends Component {
-  render() {
-    return null;
-  }
+    state = {
+        cardNumber: ''
+    };
+
+    handleChange = () => {
+
+    };
+
+    render() {
+        const {cardNumber} = this.state.cardNumber;
+        return (
+            <CardNumberInput cardNumber={cardNumber} onChange={this.handleChange}/>
+        );
+    }
 }
 
 export default CardNumberHolder;
