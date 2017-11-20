@@ -11,7 +11,7 @@ const farm = (state = initialState, action) => {
     switch (action.type) {
         case MOVE_ORDER_TO_FARM:
             return Object.assign({}, state, {
-                orders: [...state.orders, action.payload]
+                orders: state.orders ? [...state.orders, action.payload] : [action.payload]
             });
         case MOVE_ORDER_TO_CUSTOMER:
             return Object.assign({}, state, {

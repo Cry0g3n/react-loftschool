@@ -8,7 +8,7 @@ const market = (state = initialState, action) => {
     switch (action.type) {
         case CREATE_ORDER:
             return Object.assign({}, state, {
-                orders: [...state.orders, action.payload]
+                orders: state.orders ? [...state.orders, action.payload] : [action.payload]
             });
         case MOVE_ORDER_TO_FARM:
             return Object.assign({}, state, {
