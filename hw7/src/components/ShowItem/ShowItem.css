@@ -1,0 +1,14 @@
+.show-item {
+  display: inline-flex;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.show-item__right {
+  margin-left: 20px;
+}
+
+.show-item__right,
+.show-item__left {
+  min-width: 250px;
+}

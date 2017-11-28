@@ -1,0 +1,19 @@
+.character {
+    display: inline-flex;
+    width: 100%;
+}
+
+.character__left,
+.character__right {
+    margin-left: 20px;
+    min-width: 250px;
+}
+
+.character__actor-name,
+.character__name {
+    font-weight: bold;
+}
+
+.character__actor-name {
+    margin-bottom: 10px;
+}
