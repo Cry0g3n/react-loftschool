@@ -7,8 +7,8 @@ import Character from '../Character/Character'
 
 export class ShowPage extends Component {
     componentDidMount() {
-        const {location, fetchShowDataRequest} = this.props;
-        const showId = parseInt(this.props.match.params.id);
+        const {fetchShowDataRequest} = this.props;
+        const showId = this.props.match.params.id;
         fetchShowDataRequest(showId);
     }
 
